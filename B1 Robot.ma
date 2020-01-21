@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: B1 Robot.ma
-//Last modified: Tue, Jan 21, 2020 10:38:48 AM
+//Last modified: Tue, Jan 21, 2020 10:55:44 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,15 +13,15 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "585BEBF4-4C65-027F-B3A9-64B40271703B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 14.989980638480858 8.6222873296312237 6.0882458023824526 ;
-	setAttr ".r" -type "double3" -13.538352731433147 -287.7999999998575 0 ;
+	setAttr ".t" -type "double3" 31.440116206196176 9.2492624678739599 24.796415696934353 ;
+	setAttr ".r" -type "double3" -6.338352731442483 -306.99999999984186 0 ;
 	setAttr ".rp" -type "double3" 0 0 -5.5511151231257827e-16 ;
 	setAttr ".rpt" -type "double3" -1.3912416206078162e-16 2.4388155292220284e-16 1.0339800190835896e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1FAFCBBA-4358-940F-0921-18A26F222A7F";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 15.766717481080772;
+	setAttr ".coi" 39.11157972846523;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
