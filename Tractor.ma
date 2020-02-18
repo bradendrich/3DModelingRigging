@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: Tractor.ma
-//Last modified: Tue, Feb 18, 2020 11:06:24 AM
+//Last modified: Tue, Feb 18, 2020 11:07:46 AM
 //Codeset: 1252
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -14,8 +14,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "ABB9FC6D-4D2C-E4D8-6177-82B490CDA706";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -16.749053757440358 9.0640930477373747 31.554348815930361 ;
-	setAttr ".r" -type "double3" 348.86164726068995 -1472.5999999998267 0 ;
+	setAttr ".t" -type "double3" 33.392915973722907 0.11142929822522873 -4.5795340115907486 ;
+	setAttr ".r" -type "double3" 362.06164726038003 -1346.1999999997606 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "572B5C22-460D-D4F1-CD63-88B39A354860";
 	setAttr -k off ".v" no;
@@ -1175,7 +1175,7 @@ createNode mesh -n "pCubeShape7" -p "pCube7";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "pCube8";
 	rename -uid "F7F99CBD-41AD-8FA7-3C25-F3A785C81E99";
-	setAttr ".t" -type "double3" 3.7116961624419513 5.9786559741516392 -1.5699447693801258 ;
+	setAttr ".t" -type "double3" 3.7116961624419513 5.9786559741516392 -1.7526381741934702 ;
 	setAttr ".r" -type "double3" 0 0 8.7166018225164308 ;
 	setAttr ".s" -type "double3" 4.8940369909468284 0.51502148038362994 0.51502148038362994 ;
 createNode mesh -n "pCubeShape8" -p "pCube8";
@@ -1288,7 +1288,7 @@ createNode mesh -n "pCubeShape10" -p "pCube10";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "pCube11";
 	rename -uid "C060D885-4DBF-F203-4CB7-7EA5A935CB98";
-	setAttr ".t" -type "double3" 7.6952398819304406 4.3140782826988335 -1.570430809222962 ;
+	setAttr ".t" -type "double3" 7.6952398819304406 4.3140782826988335 -1.7531242140363064 ;
 	setAttr ".r" -type "double3" 0 0 34.556244454486972 ;
 	setAttr ".s" -type "double3" 0.62790095465675844 4.201523763953281 0.3522126805542759 ;
 createNode mesh -n "pCubeShape11" -p "pCube11";
@@ -1385,7 +1385,7 @@ createNode mesh -n "polySurfaceShape1" -p "pCube11";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "pCylinder7";
 	rename -uid "732A2ED1-43BB-CB21-79B1-EBA6F46A13E2";
-	setAttr ".t" -type "double3" 8.1649962038980419 4.5839011338046447 -1.5541303943460236 ;
+	setAttr ".t" -type "double3" 8.1649962038980419 4.5839011338046447 -1.736823799159368 ;
 	setAttr ".r" -type "double3" 0 0 -144.89290209129663 ;
 	setAttr ".s" -type "double3" 0.12639823792504701 1.2717513045555076 0.12639823792504701 ;
 createNode mesh -n "pCylinderShape7" -p "pCylinder7";
@@ -1687,7 +1687,7 @@ createNode mesh -n "polySurfaceShape2" -p "pCylinder7";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "pCylinder8";
 	rename -uid "436FD9C1-494B-9B2D-02BC-0C93CCB88ED1";
-	setAttr ".t" -type "double3" 3.6936314762804252 5.1829499389617482 -1.5541303943460236 ;
+	setAttr ".t" -type "double3" 3.6936314762804252 5.1829499389617482 -1.736823799159368 ;
 	setAttr ".r" -type "double3" 0 0 -71.295322493084342 ;
 	setAttr ".s" -type "double3" 0.12639823792504701 1.7137834846352287 0.12639823792504701 ;
 createNode mesh -n "pCylinderShape8" -p "pCylinder8";
