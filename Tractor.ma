@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: Tractor.ma
-//Last modified: Fri, Feb 21, 2020 05:23:09 PM
+//Last modified: Fri, Feb 21, 2020 06:03:54 PM
 //Codeset: 1252
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -14,8 +14,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "ABB9FC6D-4D2C-E4D8-6177-82B490CDA706";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -16.838278523487737 18.94395471909921 27.333728505315438 ;
-	setAttr ".r" -type "double3" 334.4616472403506 -1466.1999999999791 8.8618696379989374e-16 ;
+	setAttr ".t" -type "double3" -3.2949148795022065 12.302478310011502 32.81542115918667 ;
+	setAttr ".r" -type "double3" 346.46164724033844 -1439.7999999999938 -8.6968821915092735e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "572B5C22-460D-D4F1-CD63-88B39A354860";
 	setAttr -k off ".v" no;
